@@ -157,10 +157,6 @@ input {
     font-family: Prompt, sans-serif;
 }
 
-.active {
-    background-color: #312113 !important;
-}
-
 .navbar-brand {
     color: #fff !important;
     font-family: Prompt, sans-serif;
@@ -386,7 +382,7 @@ input {
     color: black;
 }
 
-/* .nav-link-select:hover::after {
+.nav-link-select:hover::after {
     width: 100%;
 }
 
@@ -406,11 +402,11 @@ input {
 
 .nav-link-select:hover::after {
     width: 100% !important;
-} */
+}
 
-/* .nav-link-select {
+.nav-link-select {
     position: relative;
-} */
+}
 
 @keyframes loadingRing {
     0% {
