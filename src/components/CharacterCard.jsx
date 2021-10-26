@@ -11,8 +11,8 @@ function CharacterCard(props) {
     return (
         <div onClick={clickCard} className="card-character">
             <div className="text-container-character">
-                <h3>{props.name}</h3>
-                <p>{props.race}</p>
+                <h3 className="card-character-text">{props.name}</h3>
+                <p className="card-character-text">{props.race}</p>
             </div>
             <div className="card-image-container">
                 <img className="card-img-character" src={props.image} alt="character-img" />

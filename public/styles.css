@@ -242,11 +242,10 @@ input {
     background-image: linear-gradient(to right, #fdf3ea,  #fff);
 }
 
-.card-character h3, p {
+.card-character-text {
     display: block;
     color: #312113;
     overflow: hidden;
-    white-space: normal;
     margin-right: 5px;
     text-overflow: ellipsis;
     white-space: nowrap;
