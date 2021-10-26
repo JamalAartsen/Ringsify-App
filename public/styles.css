@@ -249,6 +249,7 @@ input {
     white-space: normal;
     margin-right: 5px;
     text-overflow: ellipsis;
+    white-space: nowrap;
     font-family: Prompt, sans-serif;
 }
 
