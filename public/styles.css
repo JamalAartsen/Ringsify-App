@@ -4,6 +4,7 @@ body {
 
 .page-container {
     display: flex;
+    position: relative;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -181,7 +182,7 @@ input {
 }
 
 .footer {
-    position: relative;
+    position: absolute;
     bottom: 0px;
     width: 100%;
     border-top: solid rgba(0, 0, 0, 0.178);
