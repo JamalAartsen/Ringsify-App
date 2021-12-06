@@ -181,8 +181,8 @@ input {
 }
 
 .footer {
-    position: absolute;
-    margin: 0 auto;
+    position: relative;
+    bottom: 0px;
     width: 100%;
     border-top: solid rgba(0, 0, 0, 0.178);
     border-width: thin;
